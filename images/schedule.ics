@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+PRODID:-//WebTIS
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+DTSTAMP:20140512T133344Z
+UID: 9a1c1dc0-b591-4a34-a70e-c0143aef0cba@tickets.scotrail.co.uk
+CATEGORIES:Travel
+DTSTART:20140512T161100Z
+DTEND:20140512T171100Z
+SUMMARY:Journey Details: Edinburgh (EDB) to Glasgow Central (GLC)
+DESCRIPTION:Booking Reference: 35WRXW3L\nJourney Details: Edinburgh (EDB) to Glasgow Central (GLC)\,dep  17:11\, arr  18:11\nTrain Company:Cross Country\nMode of Transport:Train\n
+LOCATION:Edinburgh Rail Station\, UK
+END:VEVENT
+
+END:VCALENDAR
