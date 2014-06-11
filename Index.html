@@ -13,9 +13,8 @@
     <title>Cowdenhill Web Design</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/scrap.css" rel="stylesheet">
-    <!-- <link href="/css/bootstrap.min.css" rel="stylesheet"> -->
-
+    <link href="css/bootstrap.css" rel="stylesheet">
+	
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -27,6 +26,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom styles for this site -->
+    <link href="css/Cowdenhill.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -43,23 +44,22 @@
                 <span class="icon-bar"> </span>
                 <span class="icon-bar"> </span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">Cowdenhill <span id="headerSubext">Web Design<span></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li class="active"><a href="#Services">What we offer</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Footer">Contact us</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">UX Blog <b class="caret"> </b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Author</a></li>
-                    <li><a href="#">Recent Articles</a></li>
+                    <li><a href="http://blog.cowdenhill.com/contact-information/">About the blog</a></li>
+                    <li><a href="http://blog.cowdenhill.com/about-this-blogs-author/">About the author</a></li>
                     <li class="divider"> </li>
-                    <li class="dropdown-header">Latest Article</li>
-                    <li><a href="#">Second article</a></li>
-                    <li><a href="#">Third Article</a></li>
+                    <li class="dropdown-header">Latest Articles</li>
+                    <li><a href="http://blog.cowdenhill.com/blog/2014/05/30/accessibility-test-failings/">Accessibility Test Failings</a></li>
+                    <li><a href="http://blog.cowdenhill.com/blog/2014/05/29/introduction/">Introduction</a></li>
                   </ul>
                 </li>
               </ul>
@@ -73,7 +73,8 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <a name="Services"> </a>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -83,42 +84,41 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
-          <div class="container">
+          <div class="container FirstSlide">
             <div class="carousel-caption">
-              <h1>Accessibility.</h1>
+              <h1>Accessibility</h1>
               <p>Find out why accessibility matters to you're customers and why it should matter to you.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more ...</a></p>
+              <p><a class="btn btn-lg btn-default" href="#" role="button">Find out more ...</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
-          <div class="container">
+          <div class="container SecondSlide">
             <div class="carousel-caption">
-              <h1>User Experience.</h1>
+              <h1>User Experience</h1>
+			  <br>
               <p>We can help you ensure your customers will .</p>
-              <p><a class="btn btn-lg btn-default" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-default" href="#" role="button">Tell me how ...</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
-          <div class="container">
+          <div class="container ThirdSlide">
             <div class="carousel-caption">
-              <h1>Usability.</h1>
-              <p>Ensure all of your users can easily interact with your website.</p>
-              <p><a class="btn btn-lg btn-danger" href="#" role="button">Tell me more ...</a></p>
+              <h1>Usability</h1>
+              <br>
+			  <p>Ensure all of your users can easily interact with your website.</p>
+			 <p><a class="btn btn-lg btn-default" href="#" role="button">Tell me more ...</a></p>
             </div>
           </div>
         </div>
         <div class="item">         
-         <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Fourth slide" alt="Fourth slide">
-          <div class="container">
+          <div class="container FourthSlide">
             <div class="carousel-caption">
-              <h1>Engaging Design.</h1>
-              <p>Why the site look and feel is important .</p>
-              <p><a class="btn btn-lg btn-info" href="#" role="button">Show me ...</a></p>
+              <h1>Engaging Design</h1>
+              <br>
+			  <p>Why the look and feel of your site is important .</p>
+              <p><a class="btn btn-lg btn-default" href="#" role="button">Show me ...</a></p>
             </div>
           </div>
         </div>
@@ -160,8 +160,9 @@
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
+      
+	  <hr class="featurette-divider">
+		<a name="About"> </a>
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
@@ -202,10 +203,18 @@
 
 
       <!-- FOOTER -->
-      <footer>
+      <a name="Footer"> </a>
+	  <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+        <p>&copy; 2014 Cowdenhill Web Design. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <ul class="footerLinks">
+	  <li><a href="mailto:enquiries@cowdenhill.com">email us</a></li>
+	  <li><a href="#">find us on Facebook</a></li>
+	  <li><a href="#">follow us  on Twitter</a></li>
+	  <li>call us on:
+	  <ul><li><a href="tel:07818876821">mobile</a></li><li><a href="skypelink">skype</a></li>
+	  </li>
+	  </footer>
 
     </div><!-- /.container -->
 
@@ -214,7 +223,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
   </body>
 </html>
