@@ -1,0 +1,46 @@
+.headerSubtext{
+font-size:60%;
+}
+
+.FirstSlide{
+  /* fallback */
+  background-color: #1a82f7;
+  background: url(images/carousel/linear_bg_1.png);
+  background-repeat: repeat-x;
+
+  background: -webkit-linear-gradient(left, #66ccff , #000099); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #66ccff, #000099); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #66ccff, #000099); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #66ccff , #000099); /* Standard syntax */
+}
+
+ .SecondSlide{
+  /* fallback */
+  background-color: #000099;
+}
+
+ 
+ .ThirdSlider{
+  /* fallback */
+  background-color: #1a82f7;
+  background-image: url(images/linear_bg_3.png);
+
+  background: -webkit-linear-gradient(left, #000099, #66ccff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #000099, #66ccff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #000099,#66ccff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #000099, #66ccff); /* Standard syntax */
+}
+ 
+ .FourthSlider{
+  /* fallback */
+  background-color: #66ccff;
+
+  footer{
+ background-color:#000099;
+ color:#ffffff;
+ }
+
+.FooterLinks{
+ list-style-type="none";
+ display:inline-block;
+}
